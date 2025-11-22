@@ -31,7 +31,9 @@ Classify news articles from the AG News Dataset using both traditional feature-b
 
 ## How to Run:
 pip install -r requirements.txt
+
 jupyter notebook notebooks/traditional_vs_cnn_text_classification.ipynb
+
 jupyter notebook notebooks/distilbert_text_classification.ipynb
 
 ## Summary
