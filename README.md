@@ -37,17 +37,9 @@ This project uses the AG News dataset provided in the repository as CSV files:
 - Test accuracy improves consistently with increasing model complexity and leveraging richer embeddings.
 
 ## How to Run:
-Python 3.10+ is recommended. Create a virtual environment, install dependencies, and launch the notebooks.
+Python version: 3.10+
 ```bash
-# Recommended: create a virtual environment
-python -m venv env
-source env/bin/activate # Linux/Mac
-env\Scripts\activate # Windows
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Launch notebooks
 jupyter notebook notebooks/traditional_vs_cnn_text_classification.ipynb
 jupyter notebook notebooks/distilbert_text_classification.ipynb
 ```
