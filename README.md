@@ -47,4 +47,8 @@ jupyter notebook notebooks/distilbert_text_classification.ipynb
 ## Summary
 This project demonstrates that deep learning architectures outperform traditional feature-based methods for text classification. Leveraging pretrained embeddings (GloVe) and fine-tuning transformer models (DistilBERT) further improves accuracy, highlighting the value of richer model architectures and semantic representations.
 
+## Reproducibility / Notes
+- Random seeds are fixed where applicable to ensure consistent results.
+- Both notebooks can be run end-to-end; all required data is provided in the 'data/' folder.
+
 
