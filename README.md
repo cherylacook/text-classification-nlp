@@ -30,8 +30,7 @@ Classify news articles from the AG News Dataset using both traditional feature-b
 - Test accuracy improves consistently by increasing model complexity and leveraging richer embeddings.
 
 ## How to Run:
-'''
-pip install -r requirements.txt
+'''pip install -r requirements.txt'''
 jupyter notebook notebooks/traditional_vs_cnn_text_classification.ipynb
 jupyter notebook notebooks/distilbert_text_classification.ipynb
 '''
