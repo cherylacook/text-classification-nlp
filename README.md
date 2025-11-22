@@ -27,16 +27,16 @@ Classify news articles from the AG News Dataset using both traditional feature-b
     - Random embeddings: 90.9%
     - Fixed GloVe embeddings: 91.3%
   - *Fine-tuned DistilBERT:* 93.4%
-- Test accuracy improves consistently with increasing model complexity and using richer embeddings.
+- Test accuracy improves consistently by increasing model complexity and leveraging richer embeddings.
 
 ## How to Run:
+'''
 pip install -r requirements.txt
-
 jupyter notebook notebooks/traditional_vs_cnn_text_classification.ipynb
-
 jupyter notebook notebooks/distilbert_text_classification.ipynb
+'''
 
 ## Summary
-This project demonstrates that deep learning architectures outperform traditional feature-based methods for text classification. Leveraging pretrained embeddings (GloVe) and fine-tuned transformer models (DistilBERT) further improves performance, highlighting the benefits of increased model complexity and semantic representation quality.
+This project demonstrates that deep learning architectures outperform traditional feature-based methods for text classification. Leveraging pretrained embeddings (GloVe) and fine-tuned transformer models (DistilBERT) further improves performance, highlighting the benefits of increased model complexity and quality semantic representations.
 
 
