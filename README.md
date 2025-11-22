@@ -10,11 +10,6 @@ Classify news articles from the AG News Dataset using both traditional feature-b
 - `notebooks/distilbert_text_classification.ipynb` - Fine-tuned DistilBERT.
 - `requirements.txt` - Python dependencies.
 
-## Dataset
-This project uses the AG News dataset provided in the repository as CSV files:
-- `data/train.csv` - Training set.
-- `data/test.csv` - Test set.
-
 ## Methods
 - **Traditional / CNN notebook:**
   - Preprocess text data.
